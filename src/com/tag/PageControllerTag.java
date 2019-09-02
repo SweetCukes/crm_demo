@@ -55,6 +55,7 @@ public class PageControllerTag extends BodyTagSupport {
          Enumeration enumeration =  request.getParameterNames();
          String name = null;
          String value = null;
+         String a = "1";
          while (enumeration.hasMoreElements()) {
           name = (String) enumeration.nextElement();
           value = request.getParameter(name);
